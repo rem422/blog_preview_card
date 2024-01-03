@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: #F5CF4E;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100vh;
+    margin: auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+}
+
+.card .card_wrapper {
+    text-align: left;
+}
+
+.card .card_img {
+    max-width: 370px;
+    margin: 1rem;
+}
+
+.card .card_img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card .card_info {
+    padding: 1.3rem;
+}
+
+.card .card_info .sub_titles {
+    padding-bottom: 1.3rem;
+}
+
+.card .card_info .sub_titles .text_bg {
+    font-weight: 600;
+    background-color: #F5CF4E;
+    padding: .4rem;
+    border-radius: .3rem;
+    max-width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.card .card_info .sub_titles .text {
+    font-weight: lighter;
+    font-size: .8rem;
+}
+
+.card .card_info .title {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    transition: all .3s ease;
+}
+
+.card .card_info .title:hover {
+    color: #F5CF4E;
+    cursor: pointer;
+}
+
+.card .card_info .p_text {
+    color: #8B8B8B;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card .user_info {
+    display: flex;
+    align-items: center;
+}
+
+.card .user_info .user_img {
+    max-width: 10%;
+}
+
+.card .user_info .user_img img {
+    width: 100%;
+}
+
+.card .user_info .user_name {
+    margin-left: .8rem;
+    font-weight: bolder;
+}
+
+.attribution {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
